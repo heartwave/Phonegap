@@ -1,0 +1,64 @@
+#firstpage p{
+
+	height:50px;
+	font-size: 40px;
+	font-family: Vanilla;
+	margin-left: 13%;
+}
+
+#img1{
+	
+	height: 400px;
+	width: 900px;
+	background-image: url(3.png);
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin-left: 15%;
+}
+
+
+#img2{
+	
+	height: 400px;
+	width: 900px;
+	background-image: url(4.png);
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin-left: 15%;
+}
+
+#img3{
+	
+	height: 400px;
+	width: 900px;
+	background-image: url(1.png);
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	
+	margin-left: 10%;
+}
+#footer1{
+	
+	margin-left: 38%;
+	margin-top: 3px;
+}
+#footer2{
+
+	margin-left: 5%;
+
+}
+
+#content{
+	background-image: url(7.jpg);
+	background-position:center;
+	background-size:cover;
+}
+
+#header_dialog p{
+	font-size: 23px;
+	font-family: Vanilla;
+	margin-left: 40%;
+}

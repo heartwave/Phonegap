@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+ 		<title>jQuary Mobile </title>
+ 		
+ 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+ 		<link rel="stylesheet" href="my.css">
+ 		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+ 		<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+	</head>
+
+<body>
+
+	<div id="home" data-role="page" >
+
+    	<div id="firstpage" data-role="header" data-backbtn="false" data-theme="b">
+    		<p>What's time is it? Hide-and-seek time!</p>
+              <!-- navbar -->
+               <div data-role="navbar">
+                    <ul>
+                        <li><a href="#home">One</a></li>
+                        <li><a href="#galery">Two</a></li>
+                        <li><a href="#post">Three</a></li>
+                    </ul>
+                </div>
+   		 </div>
+
+    	<div id="content" data-role="content" >
+    		
+    		<div id="img1">
+    		</div>
+    	</div>
+
+     	<div  data-role="footer" data-theme="b" >
+    	
+    		<a id="footer1" href="#galery" class="ui-btn ui-icon-arrow-r ui-btn-icon-left" data-transition="fade"> open up</a>
+    		<a id="footer2" href="#dialog" class="ui-btn ui-btn-b " data-transition="fade">I don't like Fin</a>
+    	</div>
+    </div>
+
+	<div data-role="page" id="galery" >
+
+    	<div  id="firstpage" data-role="header" data-backbtn="false" data-theme="b">
+  			<p>What's time is it? Hide-and-seek time!</p>
+            <div data-role="navbar">
+                    <ul>
+                        <li><a href="#home">One</a></li>
+                        <li><a href="#galery">Two</a></li>
+                        <li><a href="#post">Three</a></li>
+                    </ul>
+                </div>
+    	</div>
+
+   		<div id="content" data-role="content" >
+    		<div id="img2">
+    		</div>
+		</div>
+
+		<div data-role="footer" data-theme="b">
+    		<a id="footer1" href="#home" class="ui-btn ui-icon-back ui-btn-icon-left" data-transition="fade">keep close</a>
+    		<a id="footer2" href="#dialog" class="ui-btn ui-btn-b " data-transition="fade">I don't like Fin</a>
+    	</div>
+    </div>
+
+	<div data-role="page" id="post" >
+
+    	<div  id="firstpage" data-role="header" data-backbtn="false" data-theme="b">
+   		 	<p>What's time is it? Hypno horse time!</p>
+            <div data-role="navbar">
+                    <ul>
+                        <li><a href="#home">One</a></li>
+                        <li><a href="#galery">Two</a></li>
+                        <li><a href="#post">Three</a></li>
+                    </ul>
+                </div>
+   		</div>
+
+   		<div id="content" data-role="content" >
+    		<div id="img3">
+    		</div>
+    	</div>
+
+		<div data-role="footer" data-theme="b">
+    	
+    		<a id="footer1" href="#home" class="ui-btn ui-icon-back ui-btn-icon-left" data-transition="flip" >keep close</a>
+    		<a id="footer2" href="#galery" class="ui-btn ui-icon-back ui-btn-icon-left" data-transition="fade">open up </a>
+        </div>
+    
+    </div>
+
+
+<!--диалоговое-->
+
+
+
+    <div data-role="page" id="dialog"  data-dialog="true">
+
+    <div  id="header_dialog" data-role="header"  data-theme="b">
+            <p>Warning</p>
+        </div>
+
+        <div id="content_dialog" data-role="content" >
+            <h2 > Do you really want to continue? </h2>
+            <a href="#post" class="ui-btn" >Yes</a>
+            <a href="#galery" class="ui-btn">Return to Fin</a>
+        </div>
+
+
+
+        
+
+
+</div>
+
+
+
+</body>
+</html>
