@@ -32,12 +32,17 @@
     	</div>
 
      	<div  data-role="footer" data-theme="b" >
-    	
-    		<a id="footer1" href="#galery" class="ui-btn ui-icon-arrow-r ui-btn-icon-left" data-transition="fade"> open up</a>
-    		<a id="footer2" href="#dialog" class="ui-btn ui-btn-b " data-transition="fade">I don't like Fin</a>
-    	</div>
-    </div>
 
+            <div data-role="navbar">
+                 <ul>
+                        
+                    <li><a href="#galery" class="ui-btn ui-icon-arrow-r ui-btn-icon-right" data-transition="fade">Open up</a></li>
+                    <li><a href="#dialog" class="ui-btn" data-transition="fade">I don't like Fin</a></li>
+                </ul>
+            </div>
+        </div>
+     </div>
+    	
 	<div data-role="page" id="galery" >
 
     	<div  id="firstpage" data-role="header" data-backbtn="false" data-theme="b">
@@ -57,8 +62,13 @@
 		</div>
 
 		<div data-role="footer" data-theme="b">
-    		<a id="footer1" href="#home" class="ui-btn ui-icon-back ui-btn-icon-left" data-transition="fade">keep close</a>
-    		<a id="footer2" href="#dialog" class="ui-btn ui-btn-b " data-transition="fade">I don't like Fin</a>
+    		<div data-role="navbar">
+                 <ul>
+                        
+                    <li><a href="#home" class="ui-btn ui-icon-back ui-btn-icon-right" data-transition="fade">Keep close</a></li>
+                    <li><a href="#dialog" class="ui-btn" data-transition="fade">I don't like Fin</a></li>
+                </ul>
+            </div>
     	</div>
     </div>
 
@@ -81,9 +91,13 @@
     	</div>
 
 		<div data-role="footer" data-theme="b">
-    	
-    		<a id="footer1" href="#home" class="ui-btn ui-icon-back ui-btn-icon-left" data-transition="flip" >keep close</a>
-    		<a id="footer2" href="#galery" class="ui-btn ui-icon-back ui-btn-icon-left" data-transition="fade">open up </a>
+    	<div data-role="navbar">
+                 <ul>
+                        
+                    <li><a href="#home" class="ui-btn" data-transition="fade">Open up</a></li>
+                    <li><a href="#galery" class="ui-btn " data-transition="fade">Keep close</a></li>
+                </ul>
+            </div>
         </div>
     
     </div>
