@@ -25,6 +25,7 @@
                         <li><a href="#home">One</a></li>
                         <li><a href="#galery">Two</a></li>
                         <li><a href="#post">Three</a></li>
+                        <li><a href="#autor">Four</a></li>
                     </ul>
                 </div>
    		 </div>
@@ -56,6 +57,7 @@
                         <li><a href="#home">One</a></li>
                         <li><a href="#galery">Two</a></li>
                         <li><a href="#post">Three</a></li>
+                        <li><a href="#autor">Four</a></li>
                     </ul>
                 </div>
     	</div>
@@ -85,6 +87,7 @@
                         <li><a href="#home">One</a></li>
                         <li><a href="#galery">Two</a></li>
                         <li><a href="#post">Three</a></li>
+                        <li><a href="#autor">Four</a></li>
                     </ul>
                 </div>
    		</div>
@@ -121,6 +124,76 @@
             <h2 > Do you really want to continue? </h2>
             <a href="#post" class="ui-btn" >Yes</a>
             <a href="#galery" class="ui-btn">Return to Fin</a>
+        </div>
+    </div>
+
+
+    <div data-role="page" id="autor"  data-dialog="true">
+
+    <div  id="header_dialog" data-role="header">
+            <p>Create by Kate P</p>
+        </div>
+
+        <div id="content_dialog" data-role="content" >
+           <canvas id="myCanvas" width="600" height="600"></canvas>
+    <script>
+    var canvas =document.getElementById("myCanvas");
+  var context = canvas.getContext("2d");
+
+  
+//К
+    context.beginPath();
+    context.lineJoin="round";
+    context.lineCap='round';
+    context.lineWidth=3;
+    context.moveTo(60,60);
+    context.lineTo(60,200);
+    context.moveTo(60,110);
+    context.lineTo(120,60);
+    context.moveTo(60, 110);                         
+    context.bezierCurveTo(120, 110, 130, 120,130,200);
+    context.stroke();
+//А
+ 
+    context.beginPath();
+    context.lineJoin="round";
+    context.lineCap='round';
+    context.moveTo(160,200);
+    context.lineTo(210,60);
+    context.moveTo(210,60);
+    context.lineTo(260,200);
+    context.moveTo(192,110);
+    context.lineTo(228,110);
+    context.closePath();
+    context.stroke();
+
+//Т
+
+    context.beginPath();
+    context.lineJoin="round";
+    context.lineCap='round';
+    context.moveTo(270,60);
+    context.lineTo(370,60);
+    context.moveTo(320,60);
+    context.lineTo(320,200);
+    context.closePath();
+    context.stroke();
+//Я
+
+    context.beginPath();
+    context.lineJoin="round";
+    context.lineCap='round';
+    context.moveTo(455,60);
+    context.lineTo(455,200);
+    context.moveTo(455, 110);                         
+    context.bezierCurveTo(405, 110, 405, 60,455,60);
+    context.moveTo(436,110);
+    context.lineTo(385,200);
+    context.closePath();
+    context.stroke();
+
+
+    </script>
         </div>
     </div>
 </body>
