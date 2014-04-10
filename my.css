@@ -10,7 +10,7 @@
 
 #img1{
 	
-	height: 21em;
+	height: 20em;
 	
 	background-image: url(3.png);
 	background-position:center;
@@ -22,7 +22,7 @@
 
 #img2{
 	
-	height: 21em;
+	height: 20em;
 	
 	background-image: url(4.png);
 	background-position:center;
@@ -33,7 +33,7 @@
 
 #img3{
 	
-	height: 21em;
+	height: 20em;
 	background-image: url(1.png);
 	background-position:center;
 	background-size:contain;
