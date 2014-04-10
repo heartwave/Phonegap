@@ -53,3 +53,15 @@
 	font-family: Vanilla;
 	margin-left: 40%;
 }
+
+#content_dialog h2{
+	margin-left: 15%;
+}
+
+#content_name p{
+	margin-left: 30%;
+}
+
+#myCanvas{
+	margin-left: 30%;
+}
